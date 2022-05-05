@@ -22,7 +22,7 @@ rand_core = { version = "0.6", features = ["std"] }
 serde = { version = "1", features = ["serde_derive"] }
 serde_json = "1"
 subtle-encoding = { version = "0.5", features = ["bech32-preview"] }
-tendermint = { version = "=0.23.6", features = ["secp256k1"] }
+tendermint = { git = "https://github.com/gsora/tendermint-rs", branch = "gsora/precursor" }
 thiserror = "1"
 
 # optional dependencies
